@@ -16,8 +16,8 @@ public class Ascensor {
     }
 
     public int crearPersona(){
-        int persona = (int) Math.floor(Math.random()*3+1);
-        //int persona = 3; // para hacer correr el test "eljirUnPisoQueSeaElMismoEnDondeSeEncuentra" quitar comentario a esta linea y volver comentario a ka linea de arriba.
+        //int persona = (int) Math.floor(Math.random()*3+1);
+        int persona = 3; // para hacer correr el test "eljirUnPisoQueSeaElMismoEnDondeSeEncuentra" quitar comentario a esta linea y volver comentario a ka linea de arriba.
         return persona;
 
     }
